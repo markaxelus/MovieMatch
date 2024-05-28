@@ -11,3 +11,7 @@ brew install mysql
 brew services start mysql
 mysql --version
 ```
+### Frontend
+```
+npm install axios react-router-dom redux react-redux redux-thunk tailwindcss@latest postcss@latest autoprefixer@latest
+```
