@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
-    'movies',
+    'movies'
 ]
 
 MIDDLEWARE = [
@@ -90,7 +90,7 @@ DATABASES = {
         'NAME': config('DB_NAME'),
         'USER': config('DB_USER'), # from MySQL
         'PASSWORD': config('DB_PASSWORD'), # from MySQL
-        'HOST': 'localhost',
+        'HOST': config('DB_HOST'),
         'PORT': '3306',
     }
 }
