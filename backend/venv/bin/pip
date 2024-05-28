@@ -1,4 +1,4 @@
-#!/Users/markaxelus/Documents/MovieMatch/backend/venv/bin/python3.12
+#!/Users/arc2106/Desktop/Career/MovieMatch/backend/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
