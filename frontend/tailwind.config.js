@@ -6,7 +6,14 @@ export default {
   ],
   theme: {
     extend: {
-  },
+      colors: 
+      {
+        custom: {
+          1: '#ff1d52',
+          2: '#bf183f'
+      }
+      }
+    },
   plugins: [],
-}
+  }
 }
