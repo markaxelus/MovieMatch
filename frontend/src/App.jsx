@@ -7,7 +7,6 @@ function App() {
   const handleOpenModal = () => setOpenModal(true);
   const handleCloseModal = () => setOpenModal(false);
   
-
   return (
     <>
       <button onClick={handleOpenModal}>Open</button>

@@ -5,10 +5,10 @@ const Modal = ( { isOpen, onClose }) => {
   if (!isOpen) return null;
   
   return (
-    <div className="shadow-md max-h-full">
+    <div className="">
       <div className='text-lg'>
         <button onClick={onClose}>X</button>
-      </div>
+      </div>  
     </div>
   )
 }
