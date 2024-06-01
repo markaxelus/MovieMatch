@@ -12,9 +12,12 @@ const Modal = ( { isOpen, onClose }) => {
           <button onClick={onClose}>X</button>
         </div>
     {/*
-    TITLE:
-          IMAGE:
-          RATINGS
+        TITLE:
+        IMAGE:
+        RATINGS:
+        AUTHOR:
+        GENRE:
+        DESCRIPTION:
     */}
         <div>
           
