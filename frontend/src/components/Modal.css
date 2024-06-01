@@ -2,17 +2,13 @@
     display: none;
 }
 
-.transition-height {
-    transition: max-height 1s ease-out, opacity 0.5s ease-out;
-  }
-  
-  .max-h-0 {
+.max-h-0 {
     max-height: 0;
     opacity: 0;
-  }
-  
-  .max-h-full {
+}
+
+.max-h-full {
     max-height: 5000px; 
     opacity: 1;
-  }
+}
   
