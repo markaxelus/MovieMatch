@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import test from "../images/download.jpeg"
 import "./Modal.css"
+import "./HideScroll.css"
 
 const Modal = ( { isOpen, onClose }) => {
   const [showDescription, setShowDescription] = useState(false);
