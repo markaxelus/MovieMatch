@@ -71,7 +71,7 @@ const GenreSelector = () => {
 
         <div
             ref={containerRef}
-            className={`w-4/12 transition-max-height duration-400 ease-in-out overflow-hidden`}
+            className={`w-5/12 transition-max-height duration-400 ease-in-out overflow-hidden`}
             style={{ maxHeight: isContainerOpen ? '500px' : '0' }}
         >
             <div className="border rounded p-4 mt-4"> 
