@@ -2,7 +2,7 @@
 ## Dependencies
 ### Django
 ```
-pip install django djangorestframework mysqlclient
+pip install django djangorestframework mysqlclient django-filter
 ```
 ### Decouple
 ```
