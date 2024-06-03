@@ -4,14 +4,14 @@ from django.db import models
 # Create your models here.
 
 class Movie(models.Model):
-    title = models.CharField(max_length=200)
+    title = models.CharField(max_length=255)
     description = models.TextField()
     #image = models.ImageField(upload_to='movie')
-    genres = models.CharField(max_length=50)
+    genres = models.CharField(max_length=255, null=True, blank=True)
     language = models.CharField(max_length=2, null=True, blank=True)
     region = models.CharField(max_length=10, null=True, blank=True)
-    startYear = models.CharField(max_length=255)
-    isAdult = models.BooleanField()
+    isAdult = models.BooleanField(null=True, blank=True)
+    titleType = models.CharField(max_length=255, null=True, blank=True)
 
     
 class Recommendation(models.Model):
