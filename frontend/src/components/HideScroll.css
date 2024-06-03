@@ -1,3 +1,8 @@
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }
+
+.transition-max-height {
+    transition: max-height 0.4s ease-in-out;
+  }
+  
